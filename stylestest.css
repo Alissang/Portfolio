@@ -1,0 +1,143 @@
+
+.card{
+    /* background: white; */
+    /* border: rgb(225,235,247); */
+    position: absolute;    
+    height: 443px;
+    width: 370px;  
+    border:#E1EBF7;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    margin: 50px;
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    z-index: 1;
+}
+.card a {
+    display: block;
+    padding: 10px 20px;
+    color: #ca2e12;
+    z-index: -1;
+} 
+.card div {
+    position: absolute;
+    display: block; 
+    width: 0%;
+    height: 100%;
+    left: 0; 
+    width: 100%;
+    height: 0%;
+    bottom: 0;
+    left: 0;
+    background: #FFD583;
+    z-index: -1;
+    /* overflow: hidden; */
+    transition: .8s all ease;
+}
+
+.card:hover div {
+    position: absolute;   
+    height: 100%;
+    width: 100%; 
+}
+/* div.card:hover{
+    /* background-color:rgb(255,61,28); 
+    background-color: #FF3D1C;
+} */
+/* .slideLeft {
+    position: absolute;
+    transition-property: background-color, color, left;
+    transition-duration: 5s;
+    -webkit-transition-property: background-color, color, left;
+    -webkit-transition-duration: 5s;
+    -o-transition-property: background-color, color, left;
+    -o-transition-duration: 5s;
+    text-align: center;
+    background-color: blue;
+    left: 90%;
+    color: white;
+    width: 100px;
+    height: 100px;
+  }
+  .slideRight {
+    position: absolute;
+    transition-property: background-color, color, left;
+    transition-duration: 5s;
+    -webkit-transition-property: background-color, color, left;
+    -webkit-transition-duration: 5s;
+    -o-transition-property: background-color, color, left;
+    -o-transition-duration: 5s;
+    background-color: red;
+    left: 0%;
+    color: black;
+  } */
+
+.tittleCard{
+    /* background-color: cyan; */
+    color: royalblue;
+    height: 50px;
+    width: 324px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    /* margin: 0px 0px 21px; */
+    text-align: center;
+    z-index: 2;
+}
+.pCard{
+    /* background-color: darkorchid; */
+    /* margin: 250px 50px; */
+    margin-top: 0px;
+    height: 120px;
+    width: 324;
+    color: #57667E;
+    font-size: 18px;
+    text-align: center;
+    padding: 0px 50px;    
+}
+/* .icon{
+    background-color: darkseagreen;    
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+    z-index: 2; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+/* } */
+
+/* #pen{
+    align-content;
+    z-index: -2;    
+    background-image: url(./src/boligrafo.png);
+    background-repeat: no-repeat;
+    background-size: 50px; 
+    background-position: center;
+    margin-block-end: ;
+} */
+/* #speaker{
+    background-image: url(./src/ruidoso.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+}
+#portfolio{
+    background-image: url(./src/portafolio.png);
+    background-repeat: no-repeat;
+    background-size: 50px; */
+/* } */
+.circle{
+    background-color: #FFF4F4;
+    background-image: url(./src/boligrafo.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
